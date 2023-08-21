@@ -24,37 +24,6 @@
 # else:
 #     print("Không có Thứ: ",n, "trong Tuần")
 
-# Bài 3
-#
-# n = int(input("Nhập vào số (KWH): "))
-# gia1 = 1678
-# gia2 = 1734
-# gia3 = 2014
-# gia4 = 2536
-# gia5 = 2834
-# gia6 = 2927
-#
-# if n <0:
-#     print("Vui Lòng Nhập Lại Số")
-# elif n <= 50:
-#     tiendien = n*gia1
-#     print(n, " KWH","có giá: ",tiendien )
-# elif n <=100:
-#     tiendien = 50*gia1 +((n-50)*gia2)
-# elif n <=200:
-#     tiendien= 50*gia1 +(50*gia2) + ((n -100 )*gia3)
-#     print(n, " KWH","có giá: ",tiendien )
-# elif n <= 300:
-#     tiendien= 50* gia1 +(50*gia2) +(100*gia3)+ ((n -200)*gia4)
-#     print(n, " KWH","có giá: ",tiendien )
-# elif n <=400:
-#     tiendien = 50* gia1 +(50*gia2)+(100*gia3) +(100*gia4)+((n - 300)*gia5)
-#     print(n, " KWH","có giá: ",tiendien )
-# else:
-#     tiendien= 50*gia1 +(50*gia2) + (100*gia3)+(100*gia4)+(100*gia5)+((n - 400)*gia6)
-#     print(n, " KWH","có giá: ",tiendien )
-
-
 
 # bai 4
 
@@ -105,20 +74,6 @@
 #     else: break
 
 
-# bai 6
-
-# while True:
-#     virus = int(input("Nhập vào số lượng virus: "))
-#     cach = 2
-#     tong = 1000000000
-#     days = 0
-#     while virus < tong:
-#         virus *= cach
-#         days +=1
-#         print(f"so ngay can de so luong virus len 1 tỷ là {days} ngay")
-#     a = int(input("bạn có muốn tiếp tục không? (1 là Yes || 0 là No) "))
-#     if a == 1: continue
-#     else: break
 
 
 # bài 7
@@ -137,18 +92,6 @@
 #         print("YES")
 # else:
 #         print("NO")
-
-# bài 8
-
-# year = int(input("Nhập một Năm để Kiểm tra: "))
-# if year % 400 == 0 or (year % 4 == 0 and year %100 != 0):
-#     print(f"Năm{year} là năm Nhuận.")
-#     days = 366
-# else:
-#     print(f"năm {year } Không phải là năm nhuận")
-#     days = 365
-#
-#     print(f"so ngày trong Năm {year} là {days} ngày")
 
 # bài 9
 #
